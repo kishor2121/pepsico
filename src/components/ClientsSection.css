@@ -1,0 +1,72 @@
+/* src/components/ClientsSection.css */
+.clients-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .clients-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1d72e0;
+    display: inline-block;
+    color: #05192e
+  }
+  
+  .clients-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* .client-box:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 123, 255, 1);
+  } */
+  
+  .client-box {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .client-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 131, 168, 0.9);
+    transition: left 0.3s;
+    z-index: 1;
+  }
+  
+  .client-box:hover:before {
+    left: 0;
+  }
+  
+  .client-box i, .client-box p {
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s;
+  }
+  
+  .client-box:hover i, .client-box:hover p {
+    color: #fff;
+  }
+  
+  
+  
+  .client-box {
+    background-color: #f0f0f0;
+    p\padding: 6px 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: calc(16.666% - 20px); /* 16.666% width with 20px gap */
+  }
+  
+  .client-box p {
+    margin: 0;
+    font-size: 0.8em;
+  }
+  

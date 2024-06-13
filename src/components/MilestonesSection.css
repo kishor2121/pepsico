@@ -1,0 +1,40 @@
+/* src/components/MilestonesSection.css */
+
+.milestones-section {
+    text-align: center;
+    padding: 40px 20px;
+    color: #000; /* Black text */
+  }
+  
+  .milestones-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2a57b8;
+    display: inline-block;
+  }
+  
+  .milestones-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .milestone {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .milestone i {
+    font-size: 3em; /* Icon size */
+    margin-bottom: 20px; /* Space between icon and text */
+  }
+  
+  .milestone h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .milestone p {
+    font-size: 1.2em;
+  }
+  

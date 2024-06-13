@@ -1,0 +1,33 @@
+/* src/components/IndustriesSection.css */
+
+.industries-section {
+    text-align: center;
+    padding: 2px 36px;
+    background-image: url('../assets/industries-back.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    color: #fff; /* White text */
+  }
+  
+  .industries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly along the row */
+  }
+  
+  .industry-item {
+    width: calc(25% - 20px); /* Set width for 4 items per row, considering gap */
+    margin-bottom: 20px; /* Add space between rows */
+    text-align: center; /* Center-align the text */
+  }
+  
+  .industry-icon {
+    font-size: 2em; /* Adjust icon size */
+    margin-bottom: 10px; /* Add space between icon and name */
+  }
+  
+  .industry-name {
+    font-size: 1em; /* Adjust name size */
+    text-decoration: underline; /* Add underline */
+  }
+  

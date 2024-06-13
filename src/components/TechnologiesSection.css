@@ -1,0 +1,36 @@
+/* src/components/TechnologiesSection.css */
+.technologies-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .technologies-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+  }
+  
+  .technologies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .technology-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(20% - 20px); /* 20% width with 20px gap */
+  }
+  
+  .technology-box i {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .technology-box span {
+    font-size: 1.2em;
+  }
+  

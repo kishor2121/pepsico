@@ -1,0 +1,32 @@
+/* src/components/ServicesSection.css */
+
+.services-section {
+    text-align: center;
+    padding: 40px 20px;
+    color: #000; /* Black text */
+  }
+  
+  .services-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow services to wrap to next line */
+  }
+  
+  .service-box {
+    width: 200px; /* Adjust width of each service box */
+    height: 100px; /* Adjust height of each service box */
+    margin: 20px; /* Adjust spacing between service boxes */
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border for each service box */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

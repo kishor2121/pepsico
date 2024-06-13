@@ -1,0 +1,72 @@
+/* src/components/TestimonialsSection.css */
+
+.testimonials-section {
+    background-color: #004080; /* Dark blue background */
+    color: #fff; /* White text */
+    padding: 12px 81px;
+    text-align: center;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff; /* White underline */
+    display: inline-block;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testimonials {
+    display: flex;
+    overflow: hidden;
+    width: 80%; /* Adjust based on your layout */
+  }
+  
+  .testimonial {
+    min-width: 33.33%; /* Adjust width to show 3 testimonials at a time */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left; /* Left align the text */
+    background-color: #ffffff; /* White background for testimonial box */
+    color: #004080; /* Dark blue text for contrast */
+    border-radius: 2px; /* Rounded corners */
+    margin: 0 10px; /* Space between boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a raised effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-10px); /* Lift the box slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensify shadow on hover */
+  }
+  
+  .stars {
+    font-size: 1.5em;
+    color: gold; /* Star color */
+    margin-bottom: 10px; /* Space between stars and text */
+  }
+  
+  .nav-button {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background: #fff;
+    color: #004080;
+  }
+  
+  .testimonial p {
+    margin: 5px 0; /* Space between lines */
+  }
+  

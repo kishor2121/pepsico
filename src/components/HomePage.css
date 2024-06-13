@@ -1,0 +1,36 @@
+/* HomePage.css */
+.home-page {
+  position: relative;
+}
+
+.background-image {
+  background-size: cover;
+  background-position: center;
+  height: 478px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  padding-left: 2%; /* Adjust as needed */
+}
+
+.content {
+  text-align: left; /* Align text to the left */
+  color: rgb(0, 0, 0);
+  padding: 20px; /* Add padding to the content */
+}
+
+.content h1 {
+  font-size: 2.9rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.5rem;
+  line-height: 1.5; /* Adjust line height for better readability */
+  margin-bottom: 10px; /* Add space between each line */
+}
+
+.content hr {
+  border: none; /* Remove default border */
+  border-top: 1px solid rgb(0, 0, 0); /* Add top border with white color */
+  margin: 20px 0; /* Add margin above and below the horizontal line */
+}
