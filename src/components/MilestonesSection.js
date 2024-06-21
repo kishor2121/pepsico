@@ -2,10 +2,10 @@ import React from 'react';
 import './MilestonesSection.css';
 
 const milestones = [
-  { title: "Experience", value: "6+ YEARS EXPERIENCE", icon: "fas fa-chart-line" },
-  { title: "Website", value: "100+ WEBSITE BUILT", icon: "fas fa-globe" },
-  { title: "Location", value: "10+ SERVICE LOCATION", icon: "fas fa-map-marker-alt" },
-  { title: "Servers", value: "35+ HAPPY CUSTOMERS", icon: "fas fa-server" }
+  { title: "Experience", value: "810+ YEARS EXPERIENCE", icon: "fas fa-chart-line" },
+  // { title: "Website", value: "10+ WEBSITE BUILT", icon: "fas fa-globe" },
+  // { title: "Location", value: "10+ SERVICE LOCATION", icon: "fas fa-map-marker-alt" },
+  { title: "Servers", value: "3000+ HAPPY CUSTOMERS", icon: "fas fa-server" }
 ];
 
 function MilestonesSection() {

@@ -4,7 +4,7 @@ import './FooterSection.css';
 function FooterSection() {
   return (
     <div className="footer-section">
-      <p>&copy; Vikas Technology. 2022. All rights reserved.</p>
+      <p>&copy; PepsiCO Technology. 2024. All rights reserved.</p>
     </div>
   );
 }

@@ -6,21 +6,22 @@
 .background-image {
   background-size: cover;
   background-position: center;
-  height: 478px; /* Adjust the height as needed */
+  height: 100vh; /* Make it full height */
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding-left: 2%; /* Adjust as needed */
+  color: rgb(230, 214, 214); /* Ensure text is readable on the image */
+  text-align: left;
 }
 
 .content {
-  text-align: left; /* Align text to the left */
-  color: rgb(0, 0, 0);
-  padding: 20px; /* Add padding to the content */
+  margin-top: auto; /* Push content to the bottom */
+  padding: 20px;
 }
 
 .content h1 {
-  font-size: 2.9rem;
-  margin-bottom: 20px;
+  font-size: 3.5rem;
+  margin-bottom: 217px;
 }
 
 .content p {
@@ -31,6 +32,6 @@
 
 .content hr {
   border: none; /* Remove default border */
-  border-top: 1px solid rgb(0, 0, 0); /* Add top border with white color */
+  border-top: 1px solid white; /* Add top border with white color */
   margin: 20px 0; /* Add margin above and below the horizontal line */
 }

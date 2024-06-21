@@ -1,3 +1,4 @@
+// Header.js
 import React from 'react';
 import './Header.css';
 import logo from '../assets/logo.png'; // Import your logo image
@@ -26,28 +27,24 @@ function Header() {
         </div>
         <div className="contact-info">
           <span className="phone-info"><i className="fas fa-phone"></i> 08026590320</span>
-          <span className="email-info"><i className="fas fa-envelope"></i> sales@vikas.com</span>
+          <span className="email-info"><i className="fas fa-envelope"></i> sales@pepsico.com</span>
         </div>
       </div>
       <div className="main-header">
         <div className="logo-container">
           <img src={logo} alt="Company Logo" className="company-logo" />
           <div className="logo-text">
-            <h4>VIKAS</h4>
-            <h7>Technology pvt ltd</h7>
+            <h4>PepsiCO</h4>
+  
           </div>
         </div>
         <nav>
           <ul>
-            <li><a href="@home">HOME</a></li>
-            <li><a href="@contact us">CONTACT US</a></li>
-            <li><a href="@news">NEWS</a></li>
-            <li><a href="@products">PRODUCT</a></li>
-            <li><a href="@clients">CLINETS</a></li>
-            <li><a href="@technology">TECHNOLOGY</a></li>
-            <li><a href="@services">SERVICES</a></li>
-            <li><a href="@contact us">BLOGS</a></li>
-
+            <li><a href="#who-we-are">Who We Are</a></li>
+            <li><a href="#our-impact">Our Impact</a></li>
+            <li><a href="#our-brands">Our Brands</a></li>
+            <li><a href="#our-stories">Our Stories</a></li>
+            <li><a href="#resources">Resources</a></li>
           </ul>
         </nav>
       </div>

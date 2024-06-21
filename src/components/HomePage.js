@@ -1,59 +1,30 @@
 // HomePage.js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './HomePage.css';
+import Header from './Header'; // Import the Header component
 import homeImage from '../assets/home.jpg'; // Import the home image
+import ImageCarousel from './ImageCarousel'; // Import the ImageCarousel component
 
 function HomePage() {
-  const [textIndex, setTextIndex] = useState(0);
-  const texts = [
-    {
-      heading: "APPLICATION DEVELOPMENT",
-      description: [
-        "We provide full-cycle software development service",
-        "encompassing planning, requirements definition, design and",
-        "prototyping, software development, testing, deployment and",
-        "application maintenance."
-      ]
-    },
-    {
-      heading: "ANALYTICAL REPORTING",
-      description: [
-        "Acquiring and utilising accurate information in the form of",
-        "analytical data is fundamental to many. We at Techasoft give",
-        "consistent reporting that incorporates analysis of various",
-        "factors and performance based on the results."
-      ]
-    },
-    {
-      heading: "SOFTWARE ROBUSTNESS",
-      description: [
-        "We help companies to focus on core business by taking over",
-        "complete responsibility. We provide both black-box and",
-        "white-box testing support on demand."
-      ]
-    }
-  ];
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setTextIndex((textIndex + 1) % texts.length);
-    }, 5000); // Change text every 5 seconds
-
-    return () => clearTimeout(timer);
-  }, [textIndex]);
+  const text = {
+    heading: "Create more smiles with every sip and every bite",
+    description: []
+  };
 
   return (
     <div className="home-page">
-      <div className="background-image" style={{backgroundImage: `url(${homeImage})`}}>
+      <div className="background-image" style={{ backgroundImage: `url(${homeImage})` }}>
+        <Header /> {/* Include Header component */}
         {/* Content overlay */}
         <div className="content">
-          <h1>{texts[textIndex].heading}</h1>
-          {texts[textIndex].description.map((line, index) => (
+          <h1>{text.heading}</h1>
+          {text.description.map((line, index) => (
             <p key={index}>{line}</p>
           ))}
-          <hr /> {/* Add horizontal line after each description */}
+          {text.description.length > 0 && <hr />} {/* Add horizontal line if there are descriptions */}
         </div>
       </div>
+      <ImageCarousel /> {/* Include ImageCarousel component below the background image */}
     </div>
   );
 }
