@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/pepsico/static/css/main.369ea244.css",
+    "main.js": "/pepsico/static/js/main.f9e1fc2d.js",
+    "static/js/453.42ee1119.chunk.js": "/pepsico/static/js/453.42ee1119.chunk.js",
+    "static/media/fa-solid-900.ttf": "/pepsico/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/7up.jpg": "/pepsico/static/media/7up.4284dea0ce1158a17a91.jpg",
+    "static/media/dew.jpg": "/pepsico/static/media/dew.d9159c4cf1512d00b226.jpg",
+    "static/media/team.png": "/pepsico/static/media/team.e3ada5351d1bd7e84daf.png",
+    "static/media/home.jpg": "/pepsico/static/media/home.f48e54496a682bf6b566.jpg",
+    "static/media/fa-brands-400.ttf": "/pepsico/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/pepsico/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/pepsico/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/pepsico/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/logo.png": "/pepsico/static/media/logo.dfe77991990d506544c6.png",
+    "static/media/fa-regular-400.woff2": "/pepsico/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/pepsico/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/pepsico/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/pepsico/index.html",
+    "main.369ea244.css.map": "/pepsico/static/css/main.369ea244.css.map",
+    "main.f9e1fc2d.js.map": "/pepsico/static/js/main.f9e1fc2d.js.map",
+    "453.42ee1119.chunk.js.map": "/pepsico/static/js/453.42ee1119.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.369ea244.css",
+    "static/js/main.f9e1fc2d.js"
+  ]
+}
